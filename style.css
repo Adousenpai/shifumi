@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 20%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.game {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.game .card_game {
+  text-align: center;
+}
+
+.game .card_game .bloc {
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#result {
+  text-align: center;
+  margin-top: 60px;
+}
+/*# sourceMappingURL=style.css.map */
