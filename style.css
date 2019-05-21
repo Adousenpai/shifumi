@@ -19,7 +19,11 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 150px;
+  margin-bottom: 30px;
+}
+
+.choice img:hover {
+  border: 2px solid cyan;
 }
 
 .game {
@@ -45,5 +49,11 @@ h1 {
 #result {
   text-align: center;
   margin-top: 60px;
+}
+
+img {
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0);
 }
 /*# sourceMappingURL=style.css.map */
